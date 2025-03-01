@@ -12,10 +12,6 @@
     var parent = document.getElementsByTagName("body")[0];
     if (parent === null) {return false;}
     //console.log(body,parent);
-
-    var elements = [
-        '<a href="https://www.colorfulbox.jp/?adref=xrea_ad&utm_source=xrea&utm_medium=banner&utm_campaign=xrea_ad" target="_blank" rel="nofollow" style="display:inline-block!important;position:relative!important;top:0!important;left:0!important;margin:0!important;padding:0!important;"><img src="https://www.colorfulbox.jp/common/img/bnr/colorfulbox_bnr01.png" alt="月額480円〜の高速レンタルサーバー ColorfulBox" style="display:inline-block!important;position:relative!important;top:0!important;left:0!important;margin:0!important;padding:0!important;width:100%!important;max-width:468px;max-height:60px;vertical-align:bottom;"></a>'
-    ];
     var randElm = elements[Math.floor(Math.random() * elements.length)];
 
     var newBox = document.createElement("div");
