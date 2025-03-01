@@ -13,14 +13,6 @@
     if (parent === null) {return false;}
     //console.log(body,parent);
     var randElm = elements[Math.floor(Math.random() * elements.length)];
-
-    var newBox = document.createElement("div");
-    newBox.setAttribute('id', 'vdbanner');
-    newBox.setAttribute("style","display:block!important;position:relative!important;top:0!important;left:0!important;margin:10px 0 !important;padding:0!important;text-align:center!important;");
-    newBox.innerHTML = randElm;
-    parent.insertBefore(newBox, parent.firstChild);
-  };
-
   try {
     window.addEventListener("load", func, false);
   }
