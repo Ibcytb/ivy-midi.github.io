@@ -65,7 +65,7 @@ window.addEventListener('load', () => {
         const button = document.createElement("button");
         document.body.appendChild(button);
         button.id=file.name;
-        button.innerHTML = "変換したファイルをダウンロード";
+        button.innerHTML = "변환된 파일 다운로드";
 　　　　　button.onclick = function(){button1_clicked();};
       })
       .catch(reason => {
